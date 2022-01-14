@@ -38,7 +38,7 @@ public class HomeWork4 {
     }
 
     private static void playRound() {
-        System.out.printf("ROUND %d START\n", ++roundCounter);
+        System.out.printf("Раунд %d Старт\n", ++roundCounter);
         initField(3, 3);
         printField();
         if (dotHuman == DOT_X) {
@@ -69,7 +69,6 @@ public class HomeWork4 {
             if (checkGame(dotAi)) break;
         }
     }
-
 
     private static void chooseTheDot() {
         System.out.print("Выбери Х или 0 >>> ");
